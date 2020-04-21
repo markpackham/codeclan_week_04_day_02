@@ -10,11 +10,7 @@ get "/films" do
 end
 
 get "/films/:number" do
-  # friends = ["Joey", '"Pheobe', "Monica", "Chandler", "Rachel", "Ross"]
-  @a_films = Film.all()
-  number = params["number"].to_i
-  return @a_films[number].to_s
-  # erb(:index)
+  erb(:films)
 end
 
 # get '/friends/:number' do
