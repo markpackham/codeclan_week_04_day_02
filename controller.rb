@@ -5,6 +5,9 @@ require_relative("./models/film")
 also_reload("./models/*")
 
 get "/all_films" do
-    @films = Film.all()
-    erb(:result)
-  end
+  @films = Film.all()
+  erb(:result)
+end
+
+# bindings.pry
+# nil
