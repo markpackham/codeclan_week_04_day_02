@@ -5,6 +5,7 @@ require_relative("./models/film")
 also_reload("./models/*")
 
 get "/films" do
+  @num = 0
   @films = Film.all()
   erb(:index)
 end

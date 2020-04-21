@@ -1,4 +1,5 @@
 <% for film in @films %>
-<a href="#"> <%= film.title %> </a> Price: £<%= film.price %>
+<a href="/films/<%= @num +=1 %>">
+<%= film.title %> </a> Price: £<%= film.price %>
 <br>
 <% end %>
