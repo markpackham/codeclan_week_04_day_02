@@ -1,5 +1,7 @@
-  <% 
+
+ <% 
   films = @films
   index = params[:number].to_i - 1
-    return films[index].title + " £" + films[index].price.to_s
+    return "<h1>" + 
+    films[index].title + "</h1>" + " £" + films[index].price.to_s
   %>
