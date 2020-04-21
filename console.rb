@@ -59,5 +59,5 @@ customer4.buy_ticket(screening6)
 
 # film2.most_popular_screening_time should return "2017-01-09 04:00:00" (for film4, it should return "2017-01-12 08:00:00")
 # Screening.most_popular should return screening2
-binding.pry
-nil
+# binding.pry
+# nil

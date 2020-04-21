@@ -9,5 +9,10 @@ get "/films" do
   erb(:index)
 end
 
-# bindings.pry
+get "/films" do
+  @films = ()
+  erb(:index)
+end
+
+# pry.bindings()
 # nil

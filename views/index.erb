@@ -1,1 +1,4 @@
-<h1>Films are <%=@films %> </h1>
+Films are 
+<% for film in @films %>
+<%= film.title %>
+<% end %>
