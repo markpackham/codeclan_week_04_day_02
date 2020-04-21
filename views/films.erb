@@ -1,1 +1,5 @@
-<a href="/films"><< Back to list</a>
+  <% 
+  films = @films
+  index = params[:number].to_i - 1
+    return films[index].title + " £" + films[index].price.to_s
+  %>

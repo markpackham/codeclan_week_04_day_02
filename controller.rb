@@ -10,14 +10,9 @@ get "/films" do
 end
 
 get "/films/:number" do
+  @films = Film.all()
   erb(:films)
 end
-
-# get '/friends/:number' do
-#   friends = ["Joey",'"Pheobe',"Monica","Chandler","Rachel","Ross"]
-#   index = params[:number].to_i - 1 # -1 so people to help people that don't know arrays start at 0
-#   return friends[index]
-# end
 
 # pry.bindings()# nil
 # nil
