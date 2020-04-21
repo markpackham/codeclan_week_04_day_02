@@ -4,9 +4,9 @@ require("pry")
 require_relative("./models/film")
 also_reload("./models/*")
 
-get "/all_films" do
+get "/films" do
   @films = Film.all()
-  erb(:result)
+  erb(:index)
 end
 
 # bindings.pry
