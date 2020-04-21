@@ -1,4 +1,9 @@
-body, a{
-    background-color: #7B9EA8;
-    color: #EFFAF0;
+body,
+a {
+  background-color: #7b9ea8;
+  color: #effaf0;
+}
+
+a {
+  text-decoration-color: #af9e99;
 }
